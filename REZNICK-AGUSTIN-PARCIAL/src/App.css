@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(44, 42, 42);
+}
+
+.container {
+    border: 2px solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.info {
+    color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+}
+.info2 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+    padding: 10px;
+}
+.colorin {
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.titulo {
+    color: white;
+    font-family: 'Trebuchet MS';
+}
+
+.labels {
+    color: white;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.inputs {
+    height: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+}
+
+.select {
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 15px;
+}
+
+.boton {
+    height: 40px;
+    padding: 5px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    background-color:lightgreen;
+    transition: background-color 0.4s;
+}
+.boton:hover {
+    background-color: rgb(86, 177, 86);
+}
+.boton:active {
+    background-color: rgb(64, 146, 64);
+}
+
+.error {
+    color: red;
+    margin-top: 40px;
+    text-align: center;
+}
